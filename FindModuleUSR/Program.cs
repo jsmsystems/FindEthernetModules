@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FindEthernetModules
+namespace FindModuleUSR
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace FindEthernetModules
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FindEthernetModules());
+            Application.Run(new Form1());
         }
     }
 }

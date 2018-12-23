@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace FindEthernetModules
 {
-    public partial class FindEthernetModules : Form
+    public partial class FrmFindEthernetModules : Form
     {
 
         // Lista de equipamentos
@@ -19,7 +19,7 @@ namespace FindEthernetModules
         //
         string IPLocal;
 
-        public FindEthernetModules()
+        public FrmFindEthernetModules()
         {
             InitializeComponent();
             // Carrega variavel com o IP da maquina onde este programa for executado.

@@ -1,6 +1,6 @@
 ﻿namespace FindEthernetModules
 {
-    partial class FindEthernetModules
+    partial class FrmFindEthernetModules
     {
         /// <summary>
         /// Variável de designer necessária.

@@ -5,7 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpListFinder", "FindEthernetModules\IpListFinder.csproj", "{817B4E1C-9532-4EC6-96B9-2CE1F50311A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindEthernetModules", "FindModuleUSR\FindEthernetModules.csproj", "{F8806F92-2214-4CF3-85F0-41BFEC017C84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindModuleUSR", "FindModuleUSR\FindModuleUSR.csproj", "{F8806F92-2214-4CF3-85F0-41BFEC017C84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpLibrary", "TcpLibrary\TcpLibrary.csproj", "{132790D4-9B85-4FC2-A18C-7522E652400B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdpLibrary", "UdpLibrary\UdpLibrary.csproj", "{9D554243-A977-4465-8D8C-0340CFE7960D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F8806F92-2214-4CF3-85F0-41BFEC017C84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8806F92-2214-4CF3-85F0-41BFEC017C84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8806F92-2214-4CF3-85F0-41BFEC017C84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132790D4-9B85-4FC2-A18C-7522E652400B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132790D4-9B85-4FC2-A18C-7522E652400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132790D4-9B85-4FC2-A18C-7522E652400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132790D4-9B85-4FC2-A18C-7522E652400B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D554243-A977-4465-8D8C-0340CFE7960D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D554243-A977-4465-8D8C-0340CFE7960D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D554243-A977-4465-8D8C-0340CFE7960D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D554243-A977-4465-8D8C-0340CFE7960D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

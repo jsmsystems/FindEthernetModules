@@ -16,7 +16,7 @@ namespace FindEthernetModules
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FindEthernetModules());
+            Application.Run(new FrmFindEthernetModules());
         }
     }
 }

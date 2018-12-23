@@ -8,7 +8,7 @@ using System.Net;//Comunicação UDP
 using System.Net.Sockets;//Comunicação UDP
 using System.ComponentModel;//BackgroundWorker
 
-namespace jsm
+namespace FindModuleUSR
 {
     public class udpControl
     {
@@ -22,6 +22,11 @@ namespace jsm
         public BackgroundWorker backWorkEnv = new BackgroundWorker();//Envio
 
         private string lastSend;//Contem a ultima mensagem envida
+        private IPAddress ipDestino;
+        private int portaDestino;
+        private string msgReceive;
+        private bool isOpen = false;
+
         public string LastMessage
         {
             get { return lastSend; }
@@ -33,27 +38,27 @@ namespace jsm
         DoWorkEventArgs e = new DoWorkEventArgs(null);
 
         //IP do Modulo ques e quer conectar
-        private IPAddress ipDestino;
+        
         public string IpDestino
         {
             get { return ipDestino.ToString(); }
             set { ipDestino = IPAddress.Parse(value); }//converte IP para uso interno
         }
         //Porta do Modulo que se quer conectar. Mesmo em IP diferente não podemos usar a mesma porta para todos.
-        private int portaDestino;
+        
         public string PortaDestino
         {
             get { return portaDestino.ToString(); }
             //set { portaDestino = Convert.ToInt32(value); }
         }
-        private string msgReceive;
+        
         public string MsgReceive
         {
             get { return msgReceive; }
             //não tem set neste caso! A string é preenchida dentro da classe apenas.
         }
         //Retorna true se esta conectado
-        private bool isOpen = false;
+        
         public bool IsOpen
         {
             get { return isOpen; }

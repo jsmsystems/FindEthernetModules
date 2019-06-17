@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FindEthernetModules
+namespace IpArpListFinder
 {
     public partial class FrmFindEthernetModules : Form
     {

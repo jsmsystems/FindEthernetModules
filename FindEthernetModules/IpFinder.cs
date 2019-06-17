@@ -5,7 +5,7 @@ using System.Net;
 using System.Threading.Tasks;
 
 
-namespace FindEthernetModules
+namespace IpArpListFinder
 {
     public class IpFinder
     {

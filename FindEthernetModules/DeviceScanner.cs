@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.NetworkInformation;
 
-namespace FindEthernetModules
+namespace IpArpListFinder
 {
     public class DeviceScanner
     {

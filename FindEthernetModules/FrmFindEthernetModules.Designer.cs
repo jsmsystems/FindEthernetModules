@@ -1,4 +1,4 @@
-﻿namespace FindEthernetModules
+﻿namespace IpArpListFinder
 {
     partial class FrmFindEthernetModules
     {

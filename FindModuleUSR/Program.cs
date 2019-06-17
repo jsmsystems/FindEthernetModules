@@ -16,7 +16,7 @@ namespace FindModuleUSR
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmFindModuleUSR());
+            Application.Run(new FrmFindDeviceUSR());
         }
     }
 }

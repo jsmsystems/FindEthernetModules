@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FindEthernetModules
+namespace IpArpListFinder
 {
     /// <summary>
     /// Objeto que representa um equipamento
